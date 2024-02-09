@@ -4,7 +4,7 @@ Common::Log::Parser - Parse the common log format lines used by Apache
 
 # VERSION
 
-version v0.1.0
+version v0.1.1
 
 # SYNOPSIS
 
