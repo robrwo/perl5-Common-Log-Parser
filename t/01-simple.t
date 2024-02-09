@@ -43,4 +43,14 @@ qq{125.125.125.125 - dsmith [10/Oct/1999:21:15:05 +0500] "GET /index.html HTTP/1
     '"USERID=CustomerA;IMPID=01234"'     #
 ];
 
+is split_log_line(q{125.125.125.125 - dsmith [10/Oct/1999:21:15:05 +0500] "GET /\"foo\" HTTP/1.0" 200 1043}), [
+    '125.125.125.125',                 #
+    '-',                               #
+    'dsmith',                          #
+    '[10/Oct/1999:21:15:05 +0500]',    #
+    '"GET /\"foo\" HTTP/1.0"',         #
+    200,                               #
+    1043                               #
+], "handle escaped quotes";
+
 done_testing;

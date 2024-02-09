@@ -40,7 +40,7 @@ It does not attempt to parse or unescape the contents. Surrounding brackets or q
 =cut
 
     my ($line) = @_;
-    my @matches = $line =~ /(?: \A | [ ]) ( - | \[ [^]]+ \] | " [^"]* " | \S+ ) /agx;
+    my @matches = $line =~ /(?: \A | [ ]) ( - | \[ [^]]+ \] | " (?:\\.|[^"])* " | \S+ ) /agx;
     return \@matches;
 }
 
