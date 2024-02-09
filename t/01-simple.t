@@ -18,6 +18,16 @@ is split_log_line(qq{125.125.125.125 - dsmith [10/Oct/1999:21:15:05 +0500] "GET 
     1043                               #
 ];
 
+is split_log_line(qq{125.125.125.125 - dsmith [10/Oct/1999:21:15:05 +0500] "GET /index.html HTTP/1.0" 200 1043\n}), [
+    '125.125.125.125',                 #
+    '-',                               #
+    'dsmith',                          #
+    '[10/Oct/1999:21:15:05 +0500]',    #
+    '"GET /index.html HTTP/1.0"',      #
+    200,                               #
+    1043                               #
+];
+
 is split_log_line(
 qq{125.125.125.125 - dsmith [10/Oct/1999:21:15:05 +0500] "GET /index.html HTTP/1.0" 200 1043 "http://www.ibm.com/" "Mozilla/4.05 [en] (WinNT; I)" "USERID=CustomerA;IMPID=01234"}
 ), [
