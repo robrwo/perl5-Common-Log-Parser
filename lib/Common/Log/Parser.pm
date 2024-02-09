@@ -46,6 +46,28 @@ It does not attempt to parse or unescape the contents. Surrounding brackets or q
 
 1;
 
+=head1 SEE ALSO
+
+=over
+
+=item *
+
+L<Apache::Log::Parser>
+
+=item *
+
+L<Apache::ParseLog>
+
+=item *
+
+L<ApacheLog::Parser>
+
+=item *
+
+L<Regexp::Long::Common>
+
+=back
+
 =head1 append:AUTHOR
 
 The initial development of this module was partially supported by Science Photo Library L<https://www.sciencephoto.com>.
