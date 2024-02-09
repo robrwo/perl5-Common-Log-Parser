@@ -2,7 +2,7 @@
 use Test2::V0;
 use Test2::Tools::Compare;
 
-use Common::Log::Parser qw( split_log_line );
+use Common::Log::Parser v0.1.0 qw( split_log_line );
 
 is split_log_line(qq{foo}), ["foo"];
 

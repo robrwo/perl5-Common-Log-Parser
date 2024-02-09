@@ -1,4 +1,4 @@
-package Common::Log::Parser;
+package Common::Log::Parser v0.1.0;
 
 use v5.14;
 use warnings;
