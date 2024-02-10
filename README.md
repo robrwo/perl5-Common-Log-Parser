@@ -37,7 +37,7 @@ It does not attempt to parse or unescape the contents. Surrounding brackets or q
 - [Apache::Log::Parser](https://metacpan.org/pod/Apache%3A%3ALog%3A%3AParser)
 - [Apache::ParseLog](https://metacpan.org/pod/Apache%3A%3AParseLog)
 - [ApacheLog::Parser](https://metacpan.org/pod/ApacheLog%3A%3AParser)
-- [Regexp::Long::Common](https://metacpan.org/pod/Regexp%3A%3ALong%3A%3ACommon)
+- [Regexp::Log::Common](https://metacpan.org/pod/Regexp%3A%3ALog%3A%3ACommon)
 
 # SOURCE
 

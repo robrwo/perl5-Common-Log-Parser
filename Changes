@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Documentation]
+  - Fixed typo in SEE ALSO.
 
 v0.1.0    2024-02-09 15:10:37+00:00 Europe/London
   - Initial version released.

@@ -64,7 +64,7 @@ L<ApacheLog::Parser>
 
 =item *
 
-L<Regexp::Long::Common>
+L<Regexp::Log::Common>
 
 =back
 
