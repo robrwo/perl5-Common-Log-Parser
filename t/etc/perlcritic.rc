@@ -1,2 +1,4 @@
+; -*- conf -*-
+
 [TestingAndDebugging::ProhibitNoStrict]
 allow = refs
