@@ -11,6 +11,8 @@ our $VERSION = 'v0.2.0';
 
 our @EXPORT_OK = qw( split_log_line );
 
+use experimental qw( signatures );
+
 =head1 SYNOPSIS
 
   use Common::Log::Parser qw( split_log_line );

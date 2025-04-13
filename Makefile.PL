@@ -18,6 +18,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Common::Log::Parser",
   "PREREQ_PM" => {
     "Exporter" => "5.57",
+    "experimental" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
@@ -42,6 +43,7 @@ my %FallbackPrereqs = (
   "Test2::Tools::Compare" => 0,
   "Test2::V0" => 0,
   "Test::More" => 0,
+  "experimental" => 0,
   "strict" => 0,
   "warnings" => 0
 );
