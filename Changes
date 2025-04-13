@@ -11,5 +11,7 @@ Revision history for {{ $dist->name }}:
 
   - Update copyright year.
 
+  - Documented minimum Perl version.
+
 v0.1.0    2024-02-09 15:10:37+00:00 Europe/London
   - Initial version released.

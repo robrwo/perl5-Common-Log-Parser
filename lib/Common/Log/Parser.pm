@@ -67,6 +67,12 @@ L<Regexp::Log::Common>
 
 =back
 
+=head1 SUPPORT FOR OLDER PERL VERSIONS
+
+Since v0.2.0, the this module requires Perl v5.20 or later.
+
+Future releases may only support Perl versions released in the last ten years.
+
 =head1 append:AUTHOR
 
 The initial development of this module was partially supported by Science Photo Library L<https://www.sciencephoto.com>.

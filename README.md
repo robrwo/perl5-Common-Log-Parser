@@ -39,6 +39,12 @@ It does not attempt to parse or unescape the contents. Surrounding brackets or q
 - [ApacheLog::Parser](https://metacpan.org/pod/ApacheLog%3A%3AParser)
 - [Regexp::Log::Common](https://metacpan.org/pod/Regexp%3A%3ALog%3A%3ACommon)
 
+# SUPPORT FOR OLDER PERL VERSIONS
+
+Since v0.2.0, the this module requires Perl v5.20 or later.
+
+Future releases may only support Perl versions released in the last ten years.
+
 # SOURCE
 
 The development version is on github at [https://github.com/robrwo/perl5-Common-Log-Parser](https://github.com/robrwo/perl5-Common-Log-Parser)
