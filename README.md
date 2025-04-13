@@ -66,7 +66,7 @@ The initial development of this module was partially supported by Science Photo 
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2024 by Robert Rothenberg.
+This software is Copyright (c) 2024-2025 by Robert Rothenberg.
 
 This is free software, licensed under:
 
