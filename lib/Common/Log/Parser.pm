@@ -7,7 +7,7 @@ use warnings;
 
 use Exporter 5.57 qw( import );
 
-our $VERSION = 'v0.2.0';
+our $VERSION = 'v0.2.1';
 
 our @EXPORT_OK = qw( split_log_line );
 
