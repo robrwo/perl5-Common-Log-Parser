@@ -1,6 +1,9 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Incompatible Changes]
+  - The minimum Perl version is now v5.20.
+
   [Documentation]
   - Fixed typo in SEE ALSO.
 

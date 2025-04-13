@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.014000;
+use 5.020000;
 
 use ExtUtils::MakeMaker;
 
@@ -14,7 +14,7 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "Common-Log-Parser",
   "LICENSE" => "artistic_2",
-  "MIN_PERL_VERSION" => "5.014000",
+  "MIN_PERL_VERSION" => "5.020000",
   "NAME" => "Common::Log::Parser",
   "PREREQ_PM" => {
     "Exporter" => "5.57",
