@@ -2,12 +2,12 @@ package Common::Log::Parser;
 
 # ABSTRACT: Parse the common log format lines used by Apache
 
-use v5.14;
+use v5.20;
 use warnings;
 
 use Exporter 5.57 qw( import );
 
-our $VERSION = 'v0.1.1';
+our $VERSION = 'v0.2.0';
 
 our @EXPORT_OK = qw( split_log_line );
 
