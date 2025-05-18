@@ -8,6 +8,9 @@ Revision history for {{ $dist->name }}:
 
   - Fixed minor typos.
 
+  [Tests]
+  - Added more author tests.
+
 v0.2.0    2025-04-13 17:37:41+01:00 Europe/London
   [Incompatible Changes]
   - The minimum Perl version is now v5.20.
